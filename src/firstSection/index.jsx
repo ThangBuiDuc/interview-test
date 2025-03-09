@@ -13,7 +13,7 @@ const FisrtSection = () => {
         />
         <img
           src={section12}
-          alt="first image of first section"
+          alt="second image of first section"
           className="main__firstsection__content__image"
         />
       </div>
