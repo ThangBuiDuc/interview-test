@@ -58,7 +58,7 @@ const SecondSection = () => {
         </div>
       </div>
 
-      <div className="main__secondsection__content">
+      <div className="mobile_main__secondsection__content main__secondsection__content">
         <div className="main__secondsection__wrapdescription">
           <div className="main__secondsection__wrapdescription__second__content">
             <p className="main__secondsection__wrapdescription__content_title">

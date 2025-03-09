@@ -156,3 +156,119 @@ p {
   line-height: 22px;
   gap: 16px;
 }
+
+/* Responsive for mobile have width = 375px  */
+@media screen and (max-width: 375px) {
+  .main {
+    gap: 40px;
+  }
+  .main__firstsection {
+    width: 375px;
+    height: auto;
+    gap: 27px;
+  }
+
+  .main__firstsection__title {
+    font-family: "lora", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .main__firstsection__content {
+    display: flex;
+    gap: 4.5px;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 8.23px;
+    padding-right: 8.23px;
+  }
+
+  .main__firstsection__content__image {
+    width: 177.27px;
+    height: 289px;
+    border-radius: 16px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  .main__firstsection__description {
+    display: flex;
+    flex-direction: column;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    align-self: center;
+    width: 353px;
+    height: 324px;
+    text-align: center;
+    gap: 16px;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+
+  .main__secondsection {
+    width: 375px;
+    height: auto;
+    gap: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .main__secondsection__content {
+    flex-direction: column-reverse;
+    gap: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .main__secondsection__wrapdescription {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f0ea;
+    overflow: hidden;
+    width: 359px;
+    height: auto;
+    border-radius: 16px;
+  }
+
+  .main__secondsection__wrapdescription__content {
+    margin-top: 34px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-bottom: 42px;
+    gap: 16px;
+  }
+
+  .main__secondsection__wrapdescription__content_title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .main__secondsection__wrapdescription__content__pharagraph__title {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .main__secondsection__content__image {
+    width: 359px;
+    height: 420px;
+    border-radius: 16px;
+  }
+
+  .mobile_main__secondsection__content {
+    flex-direction: column !important;
+  }
+
+  .main__secondsection__wrapdescription__second__content {
+    margin-top: 20px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-bottom: 20px;
+    gap: 16px;
+  }
+}
